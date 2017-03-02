@@ -1,0 +1,46 @@
+section.food-and-drink, section.playlist {
+  background-color: #5D737E;
+  flex: 1;
+}
+
+section.dance-floor {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+section.dance-floor .floor {
+  display: flex;
+  height: 100%;
+}
+
+.row {
+  align-items: stretch;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.row .cell {
+  background-color: white;
+  border: 2px solid #5D737E;
+  flex: 1;
+  margin: 0.2rem;
+}
+
+.food-and-drink ul, .playlist ol {
+  margin: 1rem;
+}
+
+.food-and-drink li, .playlist li {
+  background-color: #F0F7EE;
+  color: black;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.food-and-drink li span, .playlist li span {
+  font-weight: bold;
+}
